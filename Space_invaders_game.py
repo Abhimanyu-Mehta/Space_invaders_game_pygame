@@ -14,7 +14,7 @@ pygame.display.set_icon(icon)
 
 background = pygame.image.load('background.png')
 background1 = pygame.image.load('background1.png')
-background2 = pygame.image.load('background2.png')
+background2 = pygame.image.load('background_2.png')
 background2_change = pygame.transform.scale(background2, (800, 600))
 
 backgrounds = random.choice([background, background1, background2_change])
